@@ -17,6 +17,7 @@ if height >= 120:
   
   wants_photo = input("Do you want a photo taken? Y or N. ")
   if wants_photo == "Y":
+    # add $3 to bill
     bill += 3
   
   print(f"Your final bill is ${bill}")
